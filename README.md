@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `Project still in development`
+
+Login and make notes, To-dos and more.
+
+A basic app for taking notes, completed version with authentication, logic on backend and Oauth.
+
+Made using the MERN stack.
+
+Initial html and css provided by initial files from the fullstack course by Angela Yu on udemy. Eveything else, including css changes using mostly sass by Lukas Skerlik.
+
+
+
 
 
 ### `npm run build`
