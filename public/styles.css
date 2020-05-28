@@ -34,6 +34,7 @@ header h1 {
   color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
+
 }
 
 footer {
@@ -56,7 +57,7 @@ footer p {
   -webkit-box-shadow: 0 2px 5px #ccc;
           box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 240px;
+  width: 30%;
   margin: 16px;
   float: left;
 }
