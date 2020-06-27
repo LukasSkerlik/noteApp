@@ -1,26 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `Project still in development`
+### `Make notes, To-dos and more. `
 
-Login and make notes, To-dos and more.
+This is simply a note taking app that I developed for my own practice and for inclusion in my portfolio.
 
-A basic app for taking notes, completed version with authentication, logic on backend and Oauth.
+### `Project not in active development`
 
-Made using the MERN stack.
+It is only front-end, therefore there is no data persistency via a server. For future, if I will decide to implement that, it would be most likely using next.js.
 
-Initial html and css provided by initial files from the fullstack course by Angela Yu on udemy. Eveything else, including css changes using mostly sass by Lukas Skerlik.
+### `Credits`
 
-
-### `Placeholder for Test, please ignore this line `
-
-
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Initial html and css provided by initial files from the fullstack course by Angela Yu on udemy. Everything else, including functionality (though checked for the more initial functionality with files from Angela Yu, not with some of the added features) via JS and css changes using mostly sass by Lukas Skerlik.
