@@ -25,6 +25,7 @@ function App() {
   return (
     <div class="nightmode">
       <Header />
+      <main>
       <CreateArea onAdd={addItem} />
       {arrayOfNotes.map((notes, index) => (
         <Note
@@ -35,6 +36,7 @@ function App() {
           onChecked={deleteItem}
         />
       ))}
+      </main>
       <Footer />
     </div>
   );

@@ -1,53 +1,61 @@
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 html {
   font-family: "Montserrat", sans-serif;
-  position: relative;
-  min-height: 100%;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  height: 100%;
+  width: 100%;
 }
 
 body {
   background: #eee;
-  padding: 0 16px;
   background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
-  margin: 0 0 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  min-height: 80.5vh;
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
   background-color: #ff2f00;
-  margin: auto -16px;
-  padding: 16px 32px;
+  width: 100%;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
   color: #fff;
+  padding-left: 20px;
   font-family: "McLaren", cursive;
   font-weight: 200;
-
 }
 
 footer {
-  position: absolute;
   text-align: center;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: 3rem;
   overflow: hidden;
+  background-color: tomato;
 }
 
 footer p {
-  color: #ff2f00;
+  color: white;
   opacity: 0.5;
 }
 
@@ -57,7 +65,7 @@ footer p {
   -webkit-box-shadow: 0 2px 5px #ccc;
           box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 30%;
+  width: 240px;
   margin: 16px;
   float: left;
 }
@@ -88,7 +96,6 @@ footer p {
 
 form.create-note {
   position: relative;
-  width: 480px;
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
@@ -122,5 +129,33 @@ form.create-note button {
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  form.create-note {
+    width: 400px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  form.create-note {
+    width: 400px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  form.create-note {
+    width: 480px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  form.create-note {
+    width: 40vw;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
