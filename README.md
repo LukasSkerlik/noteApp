@@ -14,6 +14,8 @@ For currently to me unknown reasons, this site gets rendered differently on hero
 
 It is only front-end, therefore there is no data persistency via a server. For future, if I will decide to implement that, it would be most likely using next.js.
 
+If you are looking for something similar with use of a server using node express and ejs templating, see my other project: https://github.com/LukasSkerlik/blogWebsite
+
 ### `Credits`
 
 Initial html and css provided by initial files from the fullstack course by Angela Yu on udemy. Everything else, including functionality (though checked for the more initial functionality with files from Angela Yu, not with some of the added features) via JS and css changes using mostly sass by Lukas Skerlik.
