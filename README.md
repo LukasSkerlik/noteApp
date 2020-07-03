@@ -7,6 +7,15 @@ Live version can be accessed here: https://thedefinitivereactnoteapp.herokuapp.c
 Worth noting: as the site is hosted on heroku on a free server (one based in America) and not anywhere else simultaneously, the loading time might be harsh. This is not a fault of the code, but of the servers.
 Loading times may be different depending on where is this website accessed from.
 
+### `Tech stack`
+
+Front end:
+REACT
+HTML
+CSS
+SCSS
+JS
+
 ### `Important! css bugs with heroku`
 
 For currently to me unknown reasons, this site gets rendered differently on heroku than my local environment. In particular, there is no bottom scroll bar, as the width of the body is 100% and footer with copyright doesn't overlap with notes when there is enough of them to fill the page. WORK is still IN PROGRESS on this bug.
