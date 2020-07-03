@@ -5,6 +5,7 @@ This is simply a note taking app that I developed for my own practice and for in
 Live version can be accessed here: https://thedefinitivereactnoteapp.herokuapp.com/
 
 Worth noting: as the site is hosted on heroku on a free server (one based in America) and not anywhere else simultaneously, the loading time might be harsh. This is not a fault of the code, but of the servers.
+Loading times may be different depending on where is this website accessed from.
 
 ### `Important! css bugs with heroku`
 
